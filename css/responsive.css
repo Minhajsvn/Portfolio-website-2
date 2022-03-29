@@ -1,0 +1,70 @@
+
+
+/* if the viewport is equal to 340px or less than that */
+
+@media only screen and (max-width:340px) {
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar .navbar-brand,
+    .main-area .subscribe-area .subscribe .subscribe-title,
+    .main-area .subscribe-area .subscribe .subscribe-title p,h4,
+    .main-area .service-area,
+    .main-area .subscribe-area .subscribe  
+    {
+        padding: 2%;
+        margin: 0;
+    }
+    .main-area .banner-area .title-area h1{
+        font-size: 41px;
+    }
+    .main-area .subscribe-area .subscribe form .form-control{
+        width: 15rem !important;
+    }
+    .main-area > .service-area .service{
+        width: 13rem;
+    }
+}    
+@media only screen and (max-width:792px){
+    .main-area .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    .main-area .brand-area .experiance-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+    .main-area .brand-area .experiance-area .bg-border{
+        margin-left: 30%;
+        width: 80%;
+    }
+    .main-area .brand-area .experiance-area .call-area{
+        padding-left: 3%;
+    }
+    .main-area .project-area .button-group button{
+        font: normal 500 18px/40px var(--lato);
+    }
+    .main-area .about-area.about-title p{
+        padding: 0%;
+    }
+    .main-area .subscribe-area .subscribe form .form-control{
+        width: 20rem;
+        margin: 5%;
+    }
+}
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .main-area .brand-area,
+    .main-main .services-area .services-title,
+    .main-area .about-area{
+        padding: 3% 4%;
+    }
+
+
+}
